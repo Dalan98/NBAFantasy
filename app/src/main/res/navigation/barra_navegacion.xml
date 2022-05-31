@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/barra_navegacion"
+    app:startDestination="@id/alineacionFragment">
+
+    <fragment
+        android:id="@+id/alineacionFragment"
+        android:name="com.drproyects.nbafantasy.fragments.AlineacionFragment"
+        android:label="fragment_alineacion"
+        tools:layout="@layout/fragment_alineacion" />
+    <fragment
+        android:id="@+id/mercadoFragment"
+        android:name="com.drproyects.nbafantasy.fragments.MercadoFragment"
+        android:label="fragment_mercado"
+        tools:layout="@layout/fragment_mercado" />
+    <fragment
+        android:id="@+id/clasificacionFragment"
+        android:name="com.drproyects.nbafantasy.fragments.ClasificacionFragment"
+        android:label="fragment_clasificacion"
+        tools:layout="@layout/fragment_clasificacion" />
+    <fragment
+        android:id="@+id/ajustesFragment"
+        android:name="com.drproyects.nbafantasy.fragments.PerfilFragment"
+        android:label="fragment_ajustes"
+        tools:layout="@layout/fragment_perfil" />
+</navigation>

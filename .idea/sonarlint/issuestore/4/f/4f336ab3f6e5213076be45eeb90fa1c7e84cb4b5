@@ -1,0 +1,67 @@
+
+T
+java:S1135I"2Complete the task associated to this TODO comment.(ßíŠÿÿÿÿÿ8˜ÑÁê/
+H
+java:S16594"&Declare "btnSexto" on a separate line.(ÂÄÙÒúÿÿÿÿ8¡„çÅê/
+D
+java:S1068-"'Remove this unused "TAG" private field.(Ú®Œ8¹ëŸ¹à/
+@
+java:S16595"#Declare "alero" on a separate line.(³øÔ’8•ÜÊÔã/
+K
+java:S16594")Declare "btnAlaPivot" on a separate line.(ÂÄÙÒúÿÿÿÿ8¡„çÅê/
+B
+java:S16595"%Declare "escolta" on a separate line.(³øÔ’8ı©ÊÔã/
+@
+java:S16595"#Declare "sexto" on a separate line.(³øÔ’8Å›ËÔã/
+l
+java:S14501"VRemove the "mParam2" field and declare it as a local variable in the relevant methods.(¡ˆ€ 
+H
+java:S16594"&Declare "btnPivot" on a separate line.(ÂÄÙÒúÿÿÿÿ8¡„çÅê/
+@
+java:S16595"#Declare "pivot" on a separate line.(³øÔ’8 ƒËÔã/
+B
+java:S16595"%Declare "septimo" on a separate line.(³øÔ’8•¿ËÔã/
+H
+java:S16594"&Declare "btnAlero" on a separate line.(ÂÄÙÒúÿÿÿÿ8¡„çÅê/
+M
+java:S1135)"2Complete the task associated to this TODO comment.(ÜûŠ—øÿÿÿÿ
+M
+java:S1135/"2Complete the task associated to this TODO comment.(ğï¢öúÿÿÿÿ
+C
+java:S16595"&Declare "alaPivot" on a separate line.(³øÔ’8•ÜÊÔã/
+R
+java:S2209ƒ"5Change this instance-reference to a static reference.(‚Æå/8˜ÑÁê/
+I
+java:S16594"'Declare "btnNoveno" on a separate line.(ÂÄÙÒúÿÿÿÿ8¡„çÅê/
+l
+java:S14500"VRemove the "mParam1" field and declare it as a local variable in the relevant methods.(•Íï‘
+D	java:S131Š""Add a default case to this switch.(òÜ¦øÿÿÿÿ8˜ÑÁê/
+f
+java:S1128"DRemove this unused import 'com.drproyects.nbafantasy.ObjectJugador'.(”õ‹»úÿÿÿÿ8–ùˆŒë/
+t
+java:S3776`"RRefactor this method to reduce its Cognitive Complexity from 24 to the 15 allowed.(ËÄ•åûÿÿÿÿ8˜ÑÁê/
+Y	java:S125è"<This block of commented-out lines of code should be removed.(ëƒçé8ËŸ•Œë/
+I
+java:S16594"'Declare "btnDecimo" on a separate line.(ÂÄÙÒúÿÿÿÿ8¡„çÅê/
+A
+java:S10680"+Remove this unused "mParam1" private field.(•Íï‘
+I
+java:S16594"'Declare "btnOctavo" on a separate line.(ÂÄÙÒúÿÿÿÿ8¡„çÅê/
+A
+java:S10681"+Remove this unused "mParam2" private field.(¡ˆ€ 
+J
+java:S16594"(Declare "btnEscolta" on a separate line.(ÂÄÙÒúÿÿÿÿ8¡„çÅê/
+R
+java:S2209Õ"5Change this instance-reference to a static reference.(‚Æå/8’‚ÊÄê/
+e
+java:S1128 "HRemove this unused import 'java.util.concurrent.atomic.AtomicReference'.(×‡µó8¨µœ¸ê/
+Q
+java:S1128"/Remove this unused import 'org.json.JSONArray'.(¬¸Ê’üÿÿÿÿ8–ùˆŒë/
+A
+java:S16595"$Declare "decimo" on a separate line.(³øÔ’8’ÄÌÔã/
+A
+java:S16595"$Declare "noveno" on a separate line.(³øÔ’8Õ©ÌÔã/
+A
+java:S16595"$Declare "octavo" on a separate line.(³øÔ’8ù‘ÌÔã/
+J
+java:S16594"(Declare "btnSeptimo" on a separate line.(ÂÄÙÒúÿÿÿÿ8¡„çÅê/

@@ -1,0 +1,15 @@
+
+D
+java:S1068"'Remove this unused "TAG" private field.(Ö—ÈÚ8şêœÙâ/
+£
+java:S1186o"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(™Î«şÿÿÿÿ8§ãÃĞä/
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(á³Œåÿÿÿÿÿ
+Q
+java:S2209X"5Change this instance-reference to a static reference.(‚Æå/8£œÈ®ê/
+Y
+java:S18741"<Remove this use of "FragmentPagerAdapter"; it is deprecated.(Ïüõê8µ«˜ûÒ/
+£
+java:S1186e"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ø´´øÿÿÿÿ8§ãÃĞä/
+u
+java:S2637?"XThis method's return value is marked "androidx.annotation.NonNull" but null is returned.(¥¹ï8µ«˜ûÒ/
+C	java:S1315""Add a default case to this switch.(¼œóÛüÿÿÿÿ8µ«˜ûÒ/

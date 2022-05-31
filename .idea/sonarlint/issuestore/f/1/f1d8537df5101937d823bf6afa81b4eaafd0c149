@@ -1,0 +1,16 @@
+
+]	java:S125v"<This block of commented-out lines of code should be removed.(ÁœÊçøÿÿÿÿ8»»«»ë/
+|
+java:S14502"ZRemove the "alarmIntent" field and declare it as a local variable in the relevant methods.(Ø™™…üÿÿÿÿ8œŒÄ¼ë/
+O
+java:S1602",Remove useless curly braces around statement(°‚˜§üÿÿÿÿ8»»«»ë/
+D
+java:S1068/"'Remove this unused "TAG" private field.(Ú®Œ8°â¶üä/
+N
+java:S1602P",Remove useless curly braces around statement(İÂ¸öüÿÿÿÿ8ÔŞÃ“ë/
+d
+java:S1128"BRemove this unused import 'androidx.fragment.app.FragmentManager'.(¯­ë‹ıÿÿÿÿ8í´¾ëê/
+t
+java:S14501"WRemove the "alarmMgr" field and declare it as a local variable in the relevant methods.(ºğâ¬8œŒÄ¼ë/
+h
+java:S2184a"FCast one of the operands of this multiplication operation to a "long".(íş“ùşÿÿÿÿ8œŒÄ¼ë/

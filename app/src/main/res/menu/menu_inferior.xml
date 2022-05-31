@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:orderInCategory="0"
+        android:id="@+id/alineacionFragment"
+        android:icon="@drawable/icono_alineacion"
+        android:title="Alineación" />
+    <item
+        android:orderInCategory="1"
+        android:id="@+id/mercadoFragment"
+        android:icon="@drawable/icono_mercado"
+        android:title="Mercado" />
+    <item
+        android:orderInCategory="2"
+        android:id="@+id/clasificacionFragment"
+        android:icon="@drawable/icono_clasificacion"
+        android:title="Clasificación" />
+    <item
+        android:orderInCategory="3"
+        android:id="@+id/ajustesFragment"
+        android:icon="@drawable/icono_perfil"
+        android:title="Perfil" />
+</menu>

@@ -1,0 +1,14 @@
+
+Q
+java:S1128"4Remove this unused import 'android.content.Context'.(©Ê‰è8Šİ÷Ùê/
+Z
+java:S1128">Remove this unused import 'android.content.SharedPreferences'.(íÎÉr8Šİ÷Ùê/
+V	java:S110"<This class has 9 parents which is greater than 5 authorized.(·¡ïõøÿÿÿÿ
+G
+java:S1659"*Declare "etContrasena" on a separate line.(Œ„²ğ8ƒş°ùå/
+N
+java:S1659",Declare "btnRegistrarse" on a separate line.(Šˆì·ÿÿÿÿÿ8ƒş°ùå/
+I
+java:S1068"'Remove this unused "TAG" private field.(Ğªäúúÿÿÿÿ8¨‹çİâ/
+N
+java:S1602Q",Remove useless curly braces around statement(°‚˜§üÿÿÿÿ8ÒÙ¹ğå/

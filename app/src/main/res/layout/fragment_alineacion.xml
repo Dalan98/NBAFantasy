@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/basketballcourtfloor"
+    tools:context=".fragments.AlineacionFragment">
+
+
+    <Button
+        android:id="@+id/btnVenderJugador"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vender\njugador"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.866"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.849" />
+
+    <ImageButton
+        android:id="@+id/base"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="seleccionarJugador"
+        android:background="@drawable/esquinas_redondeadas"
+        android:src="@drawable/icono_alineacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.140"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombreBase"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:textAlignment="center"
+        android:background="@drawable/esquinas_redondeadas"
+        android:fontFamily="serif"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/base" />
+
+    <ImageButton
+        android:id="@+id/escolta"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="124dp"
+        android:onClick="seleccionarJugador"
+        android:background="@drawable/esquinas_redondeadas"
+        android:src="@drawable/icono_alineacion"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/nombreEscolta"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:textAlignment="center"
+        android:background="@drawable/esquinas_redondeadas"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escolta" />
+
+    <ImageButton
+        android:id="@+id/alero"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="seleccionarJugador"
+        android:background="@drawable/esquinas_redondeadas"
+        android:src="@drawable/icono_alineacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/escolta"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <TextView
+        android:id="@+id/nombreAlero"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:textAlignment="center"
+        android:background="@drawable/esquinas_redondeadas"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/alero" />
+
+    <ImageButton
+        android:id="@+id/ala_pivot"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:onClick="seleccionarJugador"
+        android:background="@drawable/esquinas_redondeadas"
+        android:src="@drawable/icono_alineacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.680"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.376" />
+
+    <TextView
+        android:id="@+id/nombreAlaPivot"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:textAlignment="center"
+        android:background="@drawable/esquinas_redondeadas"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ala_pivot" />
+
+    <ImageButton
+        android:id="@+id/pivot"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:background="@drawable/esquinas_redondeadas"
+        android:onClick="seleccionarJugador"
+        android:src="@drawable/icono_alineacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.613" />
+
+    <TextView
+        android:id="@+id/nombrePivot"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="272dp"
+        android:background="@drawable/esquinas_redondeadas"
+        android:fontFamily="serif"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/pivot" />
+
+    <ImageButton
+        android:id="@+id/sexto"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="700dp"
+        android:background="@drawable/esquinas_redondeadas"
+        android:onClick="seleccionarJugador"
+        android:src="@drawable/icono_alineacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/nombreSexto"
+        android:layout_width="79dp"
+        android:layout_height="47dp"
+        android:background="@drawable/esquinas_redondeadas"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexto" />
+
+    <ImageButton
+        android:id="@+id/septimo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginBottom="700dp"
+        android:background="@drawable/esquinas_redondeadas"
+        android:onClick="seleccionarJugador"
+        android:src="@drawable/icono_alineacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sexto"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/nombreSeptimo"
+        android:layout_width="79dp"
+        android:layout_height="47dp"
+        android:background="@drawable/esquinas_redondeadas"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/nombreSexto"
+        app:layout_constraintTop_toBottomOf="@+id/septimo" />
+
+    <ImageButton
+        android:id="@+id/octavo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="700dp"
+        android:onClick="seleccionarJugador"
+        android:background="@drawable/esquinas_redondeadas"
+        android:src="@drawable/icono_alineacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/septimo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/nombreOctavo"
+        android:layout_width="79dp"
+        android:layout_height="47dp"
+        android:background="@drawable/esquinas_redondeadas"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/nombreSeptimo"
+        app:layout_constraintTop_toBottomOf="@+id/octavo" />
+
+    <ImageButton
+        android:id="@+id/noveno"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="700dp"
+        android:onClick="seleccionarJugador"
+        android:background="@drawable/esquinas_redondeadas"
+        android:src="@drawable/icono_alineacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/octavo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/nombreNoveno"
+        android:layout_width="79dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="0dp"
+        android:textAlignment="center"
+        android:background="@drawable/esquinas_redondeadas"
+        android:fontFamily="serif"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="center"
+        app:layout_constraintStart_toEndOf="@id/nombreOctavo"
+        app:layout_constraintTop_toBottomOf="@+id/noveno" />
+
+    <ImageButton
+        android:id="@+id/decimo"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginBottom="700dp"
+        android:background="@drawable/esquinas_redondeadas"
+        android:onClick="seleccionarJugador"
+        android:src="@drawable/icono_alineacion"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/noveno"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/nombreDecimo"
+        android:layout_width="79dp"
+        android:layout_height="47dp"
+        android:background="@drawable/esquinas_redondeadas"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/nombreNoveno"
+        app:layout_constraintTop_toBottomOf="@+id/decimo" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

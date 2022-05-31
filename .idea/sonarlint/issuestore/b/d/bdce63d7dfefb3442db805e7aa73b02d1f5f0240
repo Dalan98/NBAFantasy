@@ -1,0 +1,20 @@
+
+^
+java:S1117?"<Rename "tvNombre" which hides the field declared at line 36.(Ø êùÿÿÿÿ8°©òÅê/
+^
+java:S1117@"<Rename "tvCorreo" which hides the field declared at line 36.(ªµáåÿÿÿÿÿ8İ’öÅê/
+C
+java:S1659$"&Declare "tvCorreo" on a separate line.(Ÿù©¾8×‰íÅê/
+X	java:S125~"<This block of commented-out lines of code should be removed.(ëƒçé8•½ˆ“ë/
+C
+java:S1659$"&Declare "tvDinero" on a separate line.(Ÿù©¾8×‰íÅê/
+^
+java:S1117A"<Rename "tvPuntos" which hides the field declared at line 36.(©˜ûÿÿÿÿ8Ë°öÅê/
+`
+java:S1128"CRemove this unused import 'com.drproyects.nbafantasy.MainActivity'.(Ó•¿í8¦¹ë/
+C
+java:S1659$"&Declare "tvPuntos" on a separate line.(Ÿù©¾8×‰íÅê/
+^
+java:S1117B"<Rename "tvDinero" which hides the field declared at line 36.(êÅàäøÿÿÿÿ8ûÌöÅê/
+N
+java:S1602d",Remove useless curly braces around statement(°‚˜§üÿÿÿÿ8å÷ò“ë/
